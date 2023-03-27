@@ -102,6 +102,12 @@ a {
   padding: 2rem 0;
 }
 
+.star {
+  width: 1rem;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
 /* This is a media query which will change my styles when the viewport is 700px or more */
 @media (min-width: 700px) {
   .header-container {

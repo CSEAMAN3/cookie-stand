@@ -37,3 +37,12 @@ function timeOfDay(param1, param2) {
   console.log(message);
   return message;
 }
+
+function displayRating() {
+  let output = "";
+  let rating = prompt("Rate our cookies on a of Scale of 1-5, how many stars?");
+  for (let i = 0; i < rating; i++) {
+    output += "<img class='star' src='images/star.svg' alt='rating star'>";
+  }
+  return document.write(output);
+}
