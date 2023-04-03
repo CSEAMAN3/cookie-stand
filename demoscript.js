@@ -25,3 +25,15 @@ if (arsenalFan === true) {
 } else {
   console.log("you suck " + user);
 }
+
+let cat = "Mr Whiskerson";
+let catAge = 3;
+let catAngry = true;
+
+let catFoods = ["biscuits", 2, ["chris", "tim", "lou"], { tim: [] }];
+
+let theCat = {
+  name: "whiskers",
+  age: 3,
+  favFoods: ["fish", "fish", "fish"],
+};
